@@ -1,24 +1,28 @@
 <?php include 'inc/header.php';?>
     <div class="details">
-        <h4>Users</h4>
+        <h4>Categorys</h4>
         <div class="row">
             <div class="col-xxl-12">
-                <a href="user-add.php" class="btn btn-primary">Add User</a>
+                <a href="category-add.php" class="btn btn-primary">Add Category</a>
                 <table class="table table-bordered mt-4">
                     <tr>
                         <th>SL</th>
-                        <th>Full Name</th>
-                        <th>Username</th>
-                        <th>Status</th>
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>Post Count</th>
                         <th>Action</th>
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Abdullah Nahian</td>
-                        <td>nahian28</td>
-                        <td>Admin</td>
+                        <td>Men</td>
                         <td>
-                            <a href="user-edit.php" class="btn btn-success">Edit</a>
+                            <img src="https://via.placeholder.com/150" alt="">
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            <a href="category-edit.php" class="btn btn-success">Edit</a>
                             <a href="" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
